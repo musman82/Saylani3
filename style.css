@@ -1,0 +1,300 @@
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.affix {
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+.top-bar {
+  background: #316dc3;
+  text-align: center;
+  color: #fff;
+}
+
+.fa {
+  color: #fff;
+  padding: 5px;
+  font-size: 25px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  color: #06c206;
+  transition: all 0.5s ease-out;
+  text-decoration: none;
+}
+
+.txt-bar {
+  margin-top: 5px;
+}
+
+.btn-top {
+  color: darkgreen;
+  margin-top: 2px;
+  font-size: x-small;
+  border: 1px solid darkgreen;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+
+.navbar-default .navbar-nav > .active {
+  color: #fff;
+  background: #316dc3;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background: #316dc3;
+}
+
+.navbar-brand {
+  width: 30vw;
+  padding: 0;
+  margin: auto;
+}
+.navbar-brand > img {
+  height: 100%;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  -webkit-border-radius: 0 6px 6px 6px;
+  -moz-border-radius: 0 6px 6px;
+  border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown-submenu > a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #ccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+
+.dropdown-submenu:hover > a:after {
+  border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+  float: none;
+}
+
+.dropdown-submenu.pull-left > .dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius: 6px 0 6px 6px;
+}
+
+.affix ~ .container-fluid {
+  position: relative;
+  top: 50px;
+}
+
+.carousel-inner > .item > img {
+  min-width: 100%;
+  height: 500px;
+}
+
+.intro {
+  text-transform: uppercase;
+  color: #316dc3;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.duction {
+  text-transform: uppercase;
+  color: #06c206;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.page-title:after {
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 0 auto; /* This will center the border. */
+  width: 10%; /* Change this to whatever width you want. */
+  padding-top: 0px; /* This creates some space between the element and the border. */
+  border-bottom: 2px solid darkgreen; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.project {
+  text-transform: uppercase;
+  color: #316dc3;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.stats {
+  background-color: #2160b9;
+  padding: 50px;
+}
+
+.service-card > h2,
+h5 {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.service-card > img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.bg-silver {
+  background-color: rgb(248, 245, 245);
+}
+
+.box-shadow {
+  box-shadow: 5px 5px 10px #dfd8d8;
+  background-color: #fff;
+  margin: 30px;
+  padding: 30px;
+}
+
+.up-coming {
+  margin-bottom: 10px;
+}
+.icon-box {
+  background-color: rgb(248, 245, 245);
+}
+
+.oneline {
+  width: 100px;
+  height: 100px;
+  border: solid 1px #ccc;
+  display: inline-block;
+}
+#section1 {
+  padding-top: 50px;
+  height: 500px;
+  color: #fff;
+  background-color: #1e88e5;
+}
+#section2 {
+  padding-top: 50px;
+  height: 500px;
+  color: #fff;
+  background-color: #673ab7;
+}
+#section3 {
+  padding-top: 50px;
+  height: 500px;
+  color: #fff;
+  background-color: #ff9800;
+}
+#section41 {
+  padding-top: 50px;
+  height: 500px;
+  color: #fff;
+  background-color: #00bcd4;
+}
+#section42 {
+  padding-top: 50px;
+  height: 500px;
+  color: #fff;
+  background-color: #009688;
+}
+.footer {
+  background-color: #25272e;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #bbb;
+}
+.bfooter {
+  background-color: #1e88e5;
+  font-size: 11;
+  color: #ffffff;
+  margin: 0;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.img-gallery {
+  display: inline-block;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: 10px;
+  height: auto;
+  width: auto;
+}
+.img-gallery > img {
+  height: 200px;
+  width: 200px;
+}
+
+.address {
+  padding-left: auto;
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+  .carousel-inner > .item > img {
+    min-width: 100%;
+    height: 450px;
+  }
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .carousel-inner > .item > img {
+    min-width: 100%;
+    height: 400px;
+  }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+  .carousel-inner > .item > img {
+    min-width: 100%;
+    height: 300px;
+  }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .carousel-inner > .item > img {
+    min-width: 100%;
+    height: 200px;
+  }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+  .carousel-inner > .item > img {
+    min-width: 100%;
+    height: 200px;
+  }
+}
